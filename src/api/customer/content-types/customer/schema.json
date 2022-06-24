@@ -8,14 +8,14 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "email": {
       "type": "email",
       "required": true,
-      "unique": false
+      "unique": true
     },
     "firstName": {
       "type": "string",
